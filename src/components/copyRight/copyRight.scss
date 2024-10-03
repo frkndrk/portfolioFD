@@ -1,0 +1,55 @@
+.copyRight{
+    height: 20vh;
+    background-color: #ddfcf6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #fff;
+
+    .contC{
+        width: 65%;
+        max-width: 960px;
+        padding: 0 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media screen and (max-width: 500px) {
+            padding: 0 80px 0 0;
+        }
+
+        p{
+            font-weight: bold;
+            font-size: 20px;
+
+            @media screen and (max-width: 750px) {
+                padding-right: 20px;
+            }
+
+            @media screen and (max-width: 500px) {
+                line-height: 42px;
+                padding-right: 20px;
+            }
+        }
+
+        .iconsC{
+            display: flex;
+            gap: 30px;
+            margin-right: -40px;
+
+            @media screen and (max-width: 500px) {
+                margin-right: -80px;
+                flex-direction: column;
+                gap: 0px;
+            }
+            
+
+            span{
+                
+                *{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
