@@ -9,7 +9,7 @@ import service3 from "../../assets/general.png"
 import service4 from "../../assets/bill-creation.png"
 import service5 from "../../assets/beautySaloon.png"
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import PopUpProject from './popUpProject';
+import PopUpProject from '../projects/PopUpProject';
 import tractor from "../../assets/tractor.png";
 import tax from "../../assets/tax2.png";
 import casting from "../../assets/casting.png";
