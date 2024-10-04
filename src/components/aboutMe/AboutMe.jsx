@@ -1,6 +1,6 @@
 import "./aboutMe.scss"
-import coffeePic from "../../../assets/coffee5.jpg"
-import frontendLogo from "../../../assets/reactlogo3.png"
+import coffeePic from "../../assets/coffee5.jpg"
+import frontendLogo from "../../assets/reactlogo3.png"
 
 const AboutMe = () => {
   return (
