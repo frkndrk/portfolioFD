@@ -1,5 +1,5 @@
 import "./aboutMe.scss"
-import coffeePic from "/assets/coffee5.jpg"
+import coffeePic from "assets/coffee5.jpg"
 import frontendLogo from "../../../src/assets/reactlogo3.png"
 
 
