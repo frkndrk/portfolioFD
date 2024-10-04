@@ -1,12 +1,14 @@
 import "./aboutMe.scss"
+import coffeePic from "../../../assets/coffee5.jpg"
+import frontendLogo from "../../../assets/reactlogo3.png"
 
 const AboutMe = () => {
   return (
     <div className="aboutMe">
       <div className="cont-1">
         <div className="cont-1a">
-          <img className="coffeePic" src="../../../src/assets/coffee5.jpg" alt="" />
-          <img className="frontendLogo" src="../../../src/assets/reactlogo3.png" alt="" />
+          <img className="coffeePic" src={coffeePic} alt="" />
+          <img className="frontendLogo" src={frontendLogo} alt="" />
         </div>
         <div className="cont-1b">
           <h3>ABOUT ME</h3>

@@ -2,6 +2,16 @@ import "./intro.scss"
 import { useEffect } from "react";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import htmlIcon from "../../assets/HTML.svg"
+import cssIcon from "../../assets/CSS.svg"
+import jsIcon from "../../assets/JavaScript.svg"
+import reactIcon from "../../assets/React-Light.svg"
+import threejsIcon from "../../assets/ThreeJs-Light.svg"
+import viteIcon from "../../assets/Vite-Light.svg"
+import sassIcon from "../../assets/Sass.svg"
+import bootstrapIcon from "../../assets/Bootstrap.svg"
+import laravelIcon from "../../assets/Laravel-Light.svg"
+import muiIcon from "../../assets/MaterialUI-Light.svg"
 
 const Intro = () => {
 
@@ -73,18 +83,18 @@ const Intro = () => {
           <p>Tech Stack</p>
           <ul className="icons">
             <div className="iconList">
-              <li className="icon"><img src="../../src/assets/HTML.svg" alt="" /></li>
-              <li className="icon"><img src="../../src/assets/CSS.svg" alt="" /></li>
-              <li className="icon"><img src="../../src/assets/JavaScript.svg" alt="" /></li>
-              <li className="icon"><img src="../../src/assets/React-Light.svg" alt="" /></li>
-              <li className="icon"><img src="../../src/assets/ThreeJs-Light.svg" alt="" /></li>
+              <li className="icon"><img src={htmlIcon} alt="" /></li>
+              <li className="icon"><img src={cssIcon} alt="" /></li>
+              <li className="icon"><img src={jsIcon} alt="" /></li>
+              <li className="icon"><img src={reactIcon} alt="" /></li>
+              <li className="icon"><img src={threejsIcon} alt="" /></li>
             </div>
             <div className="iconList">
-              <li className="icon"><img src="../../src/assets/Vite-Light.svg" alt="" /></li>
-              <li className="icon"><img src="../../src/assets/Sass.svg" alt="" /></li>
-              <li className="icon"><img src="../../src/assets/Bootstrap.svg" alt="" /></li>
-              <li className="icon"><img src="../../src/assets/Laravel-Light.svg" alt="" /></li>
-              <li className="icon"><img src="../../src/assets/MaterialUI-Light.svg" alt="" /></li>
+              <li className="icon"><img src={viteIcon} alt="" /></li>
+              <li className="icon"><img src={sassIcon} alt="" /></li>
+              <li className="icon"><img src={bootstrapIcon} alt="" /></li>
+              <li className="icon"><img src={laravelIcon} alt="" /></li>
+              <li className="icon"><img src={muiIcon} alt="" /></li>
             </div>
           </ul>
         </div>
@@ -95,8 +105,3 @@ const Intro = () => {
 }
 
 export default Intro
-
-
-{/* 
-              <li className="icon"><img src="../../src/assets/Git.svg" alt="" /></li>
-              <li className="icon"><img src="../../src/assets/JQuery.svg" alt="" /></li> */}
