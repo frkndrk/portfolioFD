@@ -29,7 +29,7 @@ const Intro = () => {
 
     const alphabet = nums;
 
-    const fontSize = 16;
+    const fontSize = 10;
     const columns = canvas.width / fontSize;
 
     const rainDrops = [];
@@ -42,8 +42,8 @@ const Intro = () => {
       context.fillStyle = 'rgba(255, 255, 255, 0.05)';
       context.fillRect(0, 0, canvas.width, canvas.height);
 
-      /* context.fillStyle = 'rgba(0, 0, 0, .5)'; */
-      context.fillStyle = 'rgba(29, 198, 192, 0.3)';
+      context.fillStyle = 'rgba(0, 0, 0, .5)';
+      /* context.fillStyle = 'rgba(29, 198, 192, 0.3)'; */
       context.font = fontSize + 'px monospace';
 
       for (let i = 0; i < rainDrops.length; i++) {
@@ -67,7 +67,7 @@ const Intro = () => {
       <div className="cont">
         <div className="cont1">
           <div className="title">
-            <h1>Front-End <span style={{ color: "#61DBFB" }}>React</span> Developer</h1>
+            <h1>Front-End <span style={{ color: "rgb(138, 140, 141)" }}>React</span> Developer</h1>
             <p>Hi, I'm Furkan Durak. A passionate Front-end React Developer based in Ankara, Türkiye.</p>
             <ul className="icons1">
               <li><a href="https://www.linkedin.com/in/frkndrk/" target="_blank"><LinkedInIcon fontSize="large" /></a></li>

@@ -20,10 +20,15 @@
         /* margin-top: -82px; *//* 
         background-color: rgb(234, 234, 234, .5); */
         /* background-color: rgba(#61DBFB, .1); */
-        background-color: rgba(#5ce0db, 0.1);
+        /* background-color: rgba(#5ce0db, 0.1);
         border-left: 1px solid #5ce0db;
         border-right: 1px solid #5ce0db;
-        border-bottom: 1px solid #5ce0db;
+        border-bottom: 1px solid #5ce0db; */
+        background-color: rgb(234, 234, 234, .5);
+        border-left: 1px solid #7c7e7e;
+        border-right: 1px solid #7c7e7e;
+        border-bottom: 1px solid #7c7e7e;
+        
         border-radius: 0 0 50px 50px;
 
         @media screen and (max-width: 1100px) {
@@ -50,7 +55,7 @@
             @media screen and (max-width: 905px) {
                 flex-direction: column-reverse;
                 margin-top: 20px;
-                color: rgba(10, 84, 16, 0.5)
+                color: rgba(29, 198, 192, 0.5)
             }
             
             .title{
@@ -126,7 +131,7 @@
                         margin-right: 10px;
 
                         a{
-                            color: #61DBFB;
+                            color: rgb(138, 140, 141);
 
                             &:hover{
                                 color: #0a66c2;
@@ -153,14 +158,14 @@
                     width: 400px;
                     height: 400px;/* 
                     border-radius: 50%; */
-                    background-color: rgba(81, 217, 248, 0.5);
+                    background-color: rgba(138, 140, 141, 0.5);
                     position: relative;
                     background-image: url("../../assets/profilePic.png");
                     background-size: 150%;
                     background-position-x: 46%;
                     background-position-y: 36%;
                     background-repeat: no-repeat;
-                    border: 0px solid #000000;
+                    border: 0px solid #7c7e7e;
                     animation: animate 5s ease-in-out infinite;
                     transition: all 2s ease-in-out;
 
