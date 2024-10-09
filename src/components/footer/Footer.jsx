@@ -17,15 +17,15 @@ const Footer = () => {
             setNavbar(true)
         } else if(window.scrollY >= 2200 && window.scrollY <= 2600 && window.innerWidth <= 930 && window.innerWidth > 905) {
             setNavbar(true)
-        } else if(window.scrollY >= 1900 && window.innerWidth <= 350) {
+        } /* else if(window.scrollY >= 1900 && window.innerWidth <= 350) {
             setNavbar(true)
-        } else if(window.scrollY >= 2000 && window.innerWidth <= 450) {
+        } */ else if(window.scrollY >= 1500 && window.innerWidth <= 488) {
             setNavbar(true)
-        } else if(window.scrollY >= 2200 && window.innerWidth <= 512) {
+        } else if(window.scrollY >= 1700 && window.innerWidth <= 512) {
             setNavbar(true)
-        } else if(window.scrollY >= 2300 && window.innerWidth <= 712) {
+        } else if(window.scrollY >= 1800 && window.innerWidth <= 712) {
             setNavbar(true)
-        } else if(window.scrollY >= 2601 && window.innerWidth <= 905 && window.innerWidth > 712 ) {
+        } else if(window.scrollY >= 2500 && window.innerWidth <= 905 && window.innerWidth > 712 ) {
             setNavbar(true)
         } else {
             setNavbar(false)
