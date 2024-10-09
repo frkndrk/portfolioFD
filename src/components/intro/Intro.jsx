@@ -39,11 +39,10 @@ const Intro = () => {
     }
 
     const draw = () => {
-      context.fillStyle = 'rgba(255, 255, 255, 0.05)';
+      context.fillStyle = 'rgba(255, 255, 255, 0.01 )';
       context.fillRect(0, 0, canvas.width, canvas.height);
 
       context.fillStyle = 'rgba(0, 0, 0, .5)';
-      /* context.fillStyle = 'rgba(29, 198, 192, 0.3)'; */
       context.font = fontSize + 'px monospace';
 
       for (let i = 0; i < rainDrops.length; i++) {
