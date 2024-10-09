@@ -13,7 +13,7 @@ const AboutMe = () => {
         </div>
         <div className="cont-1b">
           <h3>ABOUT ME</h3>
-          <h2>Front-end Developer - React <br /> based in Ankara, Türkiye</h2>
+          <h2>Front-end Developer <br /> based in Ankara, Türkiye</h2>
           <p>Hey, my name is Furkan, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users. </p>
           <p>My main stack currently is React/Next.js in combination with SCSS and Material UI.</p>
         </div>

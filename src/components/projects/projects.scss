@@ -11,6 +11,10 @@
     flex-direction: column;
     overflow: hidden;
 
+    @media screen and (max-width: 905px) {
+        padding: 50px 0px;
+    }
+
     h1{
         color: rgba(#4c4d4e, .7);
         margin-bottom: 0px;
