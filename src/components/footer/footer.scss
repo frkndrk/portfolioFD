@@ -113,7 +113,8 @@
                             color: #717171;
                             margin-top: 5px;
                             cursor: pointer;
-
+                            -webkit-tap-highlight-color: transparent;
+                            
                             &:hover {
                                 color: #61DBFB;
                             }
@@ -122,6 +123,7 @@
                                 text-decoration: none;
                                 outline: none;
                                 color: #717171;
+                                -webkit-tap-highlight-color: transparent;
 
                                 &:hover {
                                     color: #61DBFB;

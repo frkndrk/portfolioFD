@@ -36,6 +36,7 @@
         a{
             text-decoration: none;
             color: #000;
+            -webkit-tap-highlight-color: transparent;
         }
         
         
@@ -92,7 +93,6 @@
         transition: .5s ease-in-out;
         box-shadow: 0 0 0 0 #ffffff, 0 0 0 0 #ffffff;
         cursor: pointer;
-
     }
 
     label .hamburger {
@@ -138,6 +138,7 @@
     label input:checked+.menu {
         box-shadow: 10px 10px 10px 100vw #ffffff, 10px 10px 10px 100vh #ffffff;
         border-radius: 0;
+        -webkit-tap-highlight-color: transparent;
     }
 
     label input:checked+.menu .hamburger {
@@ -193,6 +194,7 @@
                     color: #000;
                     text-decoration: none;
                     font-size: 1.4rem;
+                    -webkit-tap-highlight-color: transparent;
                 }
             }
 

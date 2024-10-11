@@ -96,6 +96,7 @@
         padding: 0 40px;
         min-height: 350px;
         position: relative;
+        -webkit-tap-highlight-color: transparent;
 
         @media (max-width: 985px) {
             width: 68%;
