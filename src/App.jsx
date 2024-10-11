@@ -12,8 +12,10 @@ function App() {
     <>
       <Navbar />
       <Intro />
-      <AboutMe />
-      <Projects/>
+      <div className="sections">
+        <AboutMe />
+        <Projects />
+      </div>
       <Footer />
       <CopyRight />
     </>

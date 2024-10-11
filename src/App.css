@@ -1,3 +1,25 @@
 *{
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+
+    .sections{/* 
+        height: calc(100vh - 80px);
+        width: 100%;
+        position: relative;
+        top: 80px; */
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+
+        >* {
+            height: calc(100vh - 80px);
+            width: 100vw;
+            scroll-snap-align: start;
+
+            
+        }
+    }
 }

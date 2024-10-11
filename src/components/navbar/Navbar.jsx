@@ -12,10 +12,18 @@ const Navbar = () => {
       </div>
       <div className="menu1">
         <ul className='list'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li>
+            <a href="#intro">Home</a>
+          </li>
+          <li>
+            <a href="#aboutMe">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#footer">Contact</a>
+          </li>
         </ul>
       </div>
       <label>
@@ -23,10 +31,10 @@ const Navbar = () => {
         <span class="menu"> <span class="hamburger"></span> </span>
       </label>
       <ul className={activeMenu ? 'mobileList activeUl' : 'mobileList'}>
-        <li> <a onClick={() => setActiveMenu(false)} href="#Intro">Home</a> </li>
-        <li> <a onClick={() => setActiveMenu(false)} href="#AboutMe">About</a> </li>
-        <li> <a onClick={() => setActiveMenu(false)} href="#Projects">Projects</a> </li>
-        <li> <a onClick={() => setActiveMenu(false)} href="#Footer">Contact</a> </li>
+        <li> <a onClick={() => setActiveMenu(false)} href="#intro">Home</a> </li>
+        <li> <a onClick={() => setActiveMenu(false)} href="#aboutMe">About</a> </li>
+        <li> <a onClick={() => setActiveMenu(false)} href="#projects">Projects</a> </li>
+        <li> <a onClick={() => setActiveMenu(false)} href="#footer">Contact</a> </li>
 
         <div className="shapes" /* style={{display: activeMenu ? "block" : "none", opacity: activeMenu && "1"}} */>
           <div className="shape1"></div>

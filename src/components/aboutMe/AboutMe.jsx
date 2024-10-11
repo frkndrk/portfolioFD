@@ -6,7 +6,7 @@ import location from "../../assets/location2.png"
 
 const AboutMe = () => {
   return (
-    <div className="aboutMe">
+    <div className="aboutMe" id="aboutMe">
       <div className="cont-1">
         <div className="cont-1a">
           <img className="coffeePic" src={coffeePic} alt="" />

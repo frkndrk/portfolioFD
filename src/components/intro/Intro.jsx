@@ -62,7 +62,7 @@ const Intro = () => {
 
 
   return (
-    <div className="intro">
+    <div className="intro" id="intro">
       <div className="cont">
         <div className="cont1">
           <div className="title">

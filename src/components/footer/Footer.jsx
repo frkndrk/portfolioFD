@@ -73,7 +73,7 @@ const Footer = () => {
     }, [navbar])
 
     return (
-        <div className={navbar ? "footer activeF" : "footer inactiveF"}>
+        <div className={navbar ? "footer activeF" : "footer inactiveF"} id="footer">
             <div className={navbar ? "contF active" : "contF inactive"}>
                 <div className="leftCont">
                     <div className="pic">
