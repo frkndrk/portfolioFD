@@ -1,7 +1,8 @@
 *{
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
-
+    outline: none;
+    
     .sections{/* 
         height: calc(100vh - 80px);
         width: 100%;

@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="logo">
-        Furkan Durak
+        <a href="#intro">Furkan Durak</a>
       </div>
       <div className="menu1">
         <ul className='list'>

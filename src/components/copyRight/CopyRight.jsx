@@ -8,8 +8,8 @@ const CopyRight = () => {
         <div className="contC">
             <p>Copyright © 2024. All rights are reserved</p>
             <div className="iconsC">
-                <span><LinkedInIcon /></span>
-                <span><GitHubIcon /></span>
+                <span><a href="https://www.linkedin.com/in/frkndrk/" target="_blank"><LinkedInIcon fontSize="large" /></a></span>
+                <span><a href="https://github.com/frkndrk" target="_blank"><GitHubIcon fontSize="large" /></a></span>
             </div>
         </div>
     </div>

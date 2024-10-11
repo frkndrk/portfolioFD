@@ -84,8 +84,8 @@ const PopUpProject = ({ setPopUpState, popUpId }) => {
                             <h4>SCSS</h4>
                         </div>
                         <div className="source">
-                            <h5>Code <a href={services[popUpId - 1].code} target="_blank"><GitHubIcon /></a></h5>
-                            {!services[popUpId - 1].video && <h5>Live {services[popUpId - 1].id === 3 && "Demo"} <a href={services[popUpId - 1].link} target="_blank" style={{ color: "#000", marginLeft: "5px", marginTop: "3px" }}><AdsClickIcon /></a></h5>}
+                            <a style={{display: "flex"}} href={services[popUpId - 1].code} target="_blank"><h5>Code </h5><GitHubIcon /></a>
+                            {!services[popUpId - 1].video && <a href={services[popUpId - 1].link} target="_blank" style={{ color: "#000", marginLeft: "5px", marginTop: "3px" }}><h5>Live {services[popUpId - 1].id === 3 && "Demo"} </h5><AdsClickIcon /></a>}
                         </div>
                     </div>
                 </div>

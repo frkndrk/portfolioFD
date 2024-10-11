@@ -112,6 +112,21 @@
                         p {
                             color: #717171;
                             margin-top: 5px;
+                            cursor: pointer;
+
+                            &:hover {
+                                color: #61DBFB;
+                            }
+
+                            a {
+                                text-decoration: none;
+                                outline: none;
+                                color: #717171;
+
+                                &:hover {
+                                    color: #61DBFB;
+                                }
+                            }
                         }
 
                     }

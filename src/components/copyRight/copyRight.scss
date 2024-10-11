@@ -46,8 +46,13 @@
 
             span{
                 
-                *{
+                a{
                     font-size: 30px;
+                    color: #000;
+
+                    &:hover {
+                        color: #61DBFB;
+                    }
                 }
             }
         }
