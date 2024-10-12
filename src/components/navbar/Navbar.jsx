@@ -36,7 +36,7 @@ const Navbar = () => {
         <li> <a onClick={() => setActiveMenu(false)} href="#projects">Projects</a> </li>
         <li> <a onClick={() => setActiveMenu(false)} href="#footer">Contact</a> </li>
 
-        <div className="shapes" /* style={{display: activeMenu ? "block" : "none", opacity: activeMenu && "1"}} */>
+        <div className="shapes">
           <div className="shape1"></div>
           <div className="shape2"></div>
         </div>
