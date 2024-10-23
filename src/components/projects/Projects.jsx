@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import "./projects.scss"
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
-import { Link } from 'react-router-dom';
 import service1 from "../../assets/yaman-tarim.png"
 import service2 from "../../assets/enkaymm.png"
 import service3 from "../../assets/general.png"
