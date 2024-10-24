@@ -69,7 +69,7 @@ const Intro = () => {
             <h1>Front-End <span style={{ color: "rgb(138, 140, 141)" }}>React</span> Developer</h1>
             <p>Hi, I'm Furkan Durak. A passionate Front-end React Developer based in Ankara, Türkiye.</p>
             <div className="findMe">
-              <h3>Find Me</h3>
+              <h3 id="fm1">Find Me</h3>
               <ul className="icons1">
                 <li><a href="https://www.linkedin.com/in/frkndrk/" target="_blank"><LinkedInIcon fontSize="large" /></a></li>
                 <li><a href="https://github.com/frkndrk" target="_blank"><GitHubIcon fontSize="large" /></a></li>
