@@ -27,7 +27,7 @@ const Intro = () => {
     const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const nums = '01';
 
-    const alphabet = nums;
+    const alphabet = katakana + latin + nums;
 
     const fontSize = 11;
     const columns = canvas.width / fontSize;
