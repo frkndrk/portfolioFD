@@ -68,10 +68,13 @@ const Intro = () => {
           <div className="title">
             <h1>Front-End <span style={{ color: "rgb(138, 140, 141)" }}>React</span> Developer</h1>
             <p>Hi, I'm Furkan Durak. A passionate Front-end React Developer based in Ankara, Türkiye.</p>
-            <ul className="icons1">
-              <li><a href="https://www.linkedin.com/in/frkndrk/" target="_blank"><LinkedInIcon fontSize="large" /></a></li>
-              <li><a href="https://github.com/frkndrk" target="_blank"><GitHubIcon fontSize="large" /></a></li>
-            </ul>
+            <div className="findMe">
+              <h3>Find Me</h3>
+              <ul className="icons1">
+                <li><a href="https://www.linkedin.com/in/frkndrk/" target="_blank"><LinkedInIcon fontSize="large" /></a></li>
+                <li><a href="https://github.com/frkndrk" target="_blank"><GitHubIcon fontSize="large" /></a></li>
+              </ul>
+            </div>
           </div>
           <div className="profilePic">
             <div className="picCont">
@@ -79,17 +82,17 @@ const Intro = () => {
           </div>
         </div>
         <div className="skills">
-          <p>Tech Stack</p>
+          <p style={{ fontWeight: "bold" }}>Best Skills</p>
           <ul className="icons">
             <div className="iconList">
-              <li className="icon"><img src={htmlIcon} alt="" /></li>
-              <li className="icon"><img src={cssIcon} alt="" /></li>
+              {/* <li className="icon"><img src={htmlIcon} alt="" /></li>
+              <li className="icon"><img src={cssIcon} alt="" /></li> */}
               <li className="icon"><img src={jsIcon} alt="" /></li>
               <li className="icon"><img src={reactIcon} alt="" /></li>
               <li className="icon"><img src={threejsIcon} alt="" /></li>
+              <li className="icon"><img src={viteIcon} alt="" /></li>
             </div>
             <div className="iconList">
-              <li className="icon"><img src={viteIcon} alt="" /></li>
               <li className="icon"><img src={sassIcon} alt="" /></li>
               <li className="icon"><img src={bootstrapIcon} alt="" /></li>
               <li className="icon"><img src={laravelIcon} alt="" /></li>

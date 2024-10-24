@@ -123,32 +123,42 @@
                     } */
                 }
 
-                .icons1 {
-                    list-style: none;
+                .findMe{
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    margin-top: 20px;
+                    flex-direction: column;
 
-                    /* @media screen and (max-width: 500px) {
-                        margin-top: 5px;
-                    } */
-
-                    li {
-                        margin-right: 10px;
-
-                        a {
-                            color: rgb(138, 140, 141);
-
-                            &:hover {
-                                color: #61DBFB;
-                            }
-                        }
-
-
-
+                    h3{
+                        margin-top: 20px;
                     }
+                    .icons1 {
+                        list-style: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+    
+                        li {
+                            margin-right: 10px;
+
+                            &:nth-child(1) {
+                                margin-left: -5px;
+                            }
+    
+                            a {
+                                color: rgb(138, 140, 141);
+    
+                                &:hover {
+                                    color: #61DBFB;
+                                }
+                            }
+    
+    
+    
+                        }
+                    }
+
                 }
+
+                
 
 
             }

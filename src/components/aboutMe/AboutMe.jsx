@@ -14,9 +14,13 @@ const AboutMe = () => {
         </div>
         <div className="cont-1b">
           <h3>ABOUT ME</h3>
-          <h2>Front-end Developer <br /> based in Ankara, Türkiye <br className="spaceBr"/> <img className="location" src={location} alt="" /></h2>
-          <p>Hey, my name is Furkan, and I'm a Frontend Developer. My passion is to create and develop a clean UI/UX for my users. </p>
-          <p>My main stack currently is React/Next.js in combination with SCSS and Material UI.</p>
+          <h2>Front-end Developer <br /> based in Ankara, Türkiye <br className="spaceBr" /> <img className="location" src={location} alt="" /></h2>
+          <p>Detail-oriented Front End Developer with more than 2 years experience working HTML, CSS, SCSS, Javascript,
+            JQuery and React, Vite, Next.js.</p>
+          <p>Highly adept at both independent and collaborative projects, with an emphasis
+          on landing page and website development.</p>
+          <p>Skilled in developing fully responsive sites for mobile and desktop
+          devices and creating websites with high performance and speed values.</p>
         </div>
         <div className="shapeCircle">
         </div>
