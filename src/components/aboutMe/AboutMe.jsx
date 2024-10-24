@@ -15,8 +15,9 @@ const AboutMe = () => {
         <div className="cont-1b">
           <h3>ABOUT ME</h3>
           <h2>Front-end Developer <br /> based in Ankara, Türkiye <br className="spaceBr" /> <img className="location" src={location} alt="" /></h2>
-          <p>Detail-oriented Front End Developer with more than 2 years experience working HTML, CSS, SCSS, Javascript,
+          <p>Detail-oriented Front End Developer with more than 3 years experience working SCSS, Javascript,
             JQuery and React, Vite, Next.js.</p>
+          <p>Striving to increase experience with Three.js.</p>
           <p>Highly adept at both independent and collaborative projects, with an emphasis
           on landing page and website development.</p>
           <p>Skilled in developing fully responsive sites for mobile and desktop
