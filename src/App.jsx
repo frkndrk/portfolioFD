@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar'
 import Projects from './components/projects/Projects'
 import Footer from './components/footer/Footer'
 import CopyRight from './components/copyRight/CopyRight'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       </div>
       <Footer />
       <CopyRight />
+      <Analytics />
     </>
   )
 }
