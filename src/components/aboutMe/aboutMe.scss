@@ -27,15 +27,16 @@
         padding: 50px 40px;
         display: flex;
         border-radius: 50px;
-        /* 
-        box-shadow: 0 0 10px 1px rgba(#969d96, .4); */
+            /* 
+            box-shadow: 0 0 10px 1px rgba(#b7beb7, .4); */
         border: 0px solid rgba(#a5e3b6, 1);
         /* background: linear-gradient(90deg, rgba(#a5e3b6, .3), rgba(#61DBFB, .2)); */
         background: linear-gradient(90deg, rgb(227, 255, 234), rgb(221, 253, 251));
         position: relative;
         overflow: hidden;
         z-index: 2;
-        animation: rotating 1s infinite ease;
+        animation: rotating 2s infinite ease;
+        transition: all 2s ease;
 
         @keyframes rotating {
             0%{
