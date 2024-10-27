@@ -142,8 +142,6 @@
                 .picCont {
                     width: 400px;
                     height: 400px;
-                    /* 
-                    border-radius: 50%; */
                     background-color: rgba(#d1d1d1, 0.5);
                     position: relative;
                     background-image: url("../../assets/profilePic.png");
@@ -199,11 +197,6 @@
             @media screen and (max-width: 905px) {
                 padding-top: 10px;
             }
-
-            /* 
-            @media screen and (max-width: 500px) {
-                padding-top: 10px;
-            } */
 
             p {
                 color: #555;
