@@ -8,6 +8,16 @@ import { useState } from "react"
 const AboutMe = () => {
   const [shapeState, setShapeState] = useState(false)
 
+  const handleShape = () => {
+    setShapeState(true)
+    setTimeout(
+      () => setShapeState(false),
+      5000
+    )
+  }
+
+  console.log(shapeState)
+
   return (
     <div className="aboutMe" id="aboutMe">
       <div className="cont-1">
@@ -26,7 +36,12 @@ const AboutMe = () => {
           <p>Skilled in developing fully responsive sites for mobile and desktop
           devices and creating websites with high performance and speed values.</p>
         </div>
-        <div className={shapeState ? "shapeCircle activeCircle" : "shapeCircle"} onClick={() => setShapeState(true)}>
+        <div className={shapeState ? "shapeCircle activeCircle" : "shapeCircle"} onClick={handleShape}>
+          <div className="shapeCircleInner1"></div>
+          <div className="shapeCircleInner2"></div>
+          <div className="shapeCircleInner3"></div>
+          <div className="shapeCircleInnerMobile1"></div>
+          <div className="shapeCircleInnerMobile2"></div>
         </div>
       </div>
       <div className="line1a"></div>
