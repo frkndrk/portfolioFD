@@ -2,9 +2,12 @@ import "./aboutMe.scss"
 import coffeePic from "../../assets/coffee5.jpg"
 import frontendLogo from "../../../src/assets/reactlogo3.png"
 import location from "../../assets/location2.png"
+import { useState } from "react"
 
 
 const AboutMe = () => {
+  const [shapeState, setShapeState] = useState(false)
+
   return (
     <div className="aboutMe" id="aboutMe">
       <div className="cont-1">
@@ -23,7 +26,7 @@ const AboutMe = () => {
           <p>Skilled in developing fully responsive sites for mobile and desktop
           devices and creating websites with high performance and speed values.</p>
         </div>
-        <div className="shapeCircle">
+        <div className={shapeState ? "shapeCircle activeCircle" : "shapeCircle"} onClick={() => setShapeState(true)}>
         </div>
       </div>
       <div className="line1a"></div>

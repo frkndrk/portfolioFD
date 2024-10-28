@@ -27,7 +27,7 @@
         padding: 50px 40px;
         display: flex;
         border-radius: 50px;
-            /* 
+        /* 
             box-shadow: 0 0 10px 1px rgba(#b7beb7, .4); */
         border: 0px solid rgba(#a5e3b6, 1);
         /* background: linear-gradient(90deg, rgba(#a5e3b6, .3), rgba(#61DBFB, .2)); */
@@ -39,67 +39,87 @@
         transition: all 2s ease;
 
         @keyframes rotating {
-            0%{
+            0% {
                 background: linear-gradient(90deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            5%{
+
+            5% {
                 background: linear-gradient(110deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            10%{
+
+            10% {
                 background: linear-gradient(130deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            15%{
+
+            15% {
                 background: linear-gradient(150deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            20%{
+
+            20% {
                 background: linear-gradient(170deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            25%{
+
+            25% {
                 background: linear-gradient(190deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            30%{
+
+            30% {
                 background: linear-gradient(210deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            35%{
+
+            35% {
                 background: linear-gradient(230deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            40%{
+
+            40% {
                 background: linear-gradient(250deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            45%{
+
+            45% {
                 background: linear-gradient(270deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            50%{
+
+            50% {
                 background: linear-gradient(290deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            55%{
+
+            55% {
                 background: linear-gradient(310deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            60%{
+
+            60% {
                 background: linear-gradient(330deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            65%{
+
+            65% {
                 background: linear-gradient(350deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            70%{
+
+            70% {
                 background: linear-gradient(370deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            75%{
+
+            75% {
                 background: linear-gradient(390deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            80%{
+
+            80% {
                 background: linear-gradient(410deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            85%{
+
+            85% {
                 background: linear-gradient(420deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            90%{
+
+            90% {
                 background: linear-gradient(430deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            95%{
+
+            95% {
                 background: linear-gradient(440deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
-            100%{
+
+            100% {
                 background: linear-gradient(450deg, rgb(227, 255, 234), rgb(221, 253, 251));
             }
         }
@@ -247,9 +267,22 @@
             right: -30px;
             width: 70px;
             height: 70px;
-            background-color: #dcfae4;
+            background-color: #fefa01;
             border-radius: 50%;
             border: 10px solid #ffffff;
+            z-index: -1;
+            animation: moveCircle 2s infinite ease;
+
+            @keyframes moveCircle {
+                0%,100% {
+                    width: 70px;
+                    height: 70px;
+                }
+                50%{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
 
             @media screen and (max-width: 500px) {
                 width: 40px;
@@ -257,6 +290,27 @@
                 top: -15px;
                 right: -15px;
                 border: 5px solid #fff;
+            }
+        }
+
+        .activeCircle {
+            animation: sizeChange 20s infinite ease;
+
+            @keyframes sizeChange {
+                0% {
+                    transform: scale(1);
+                }
+
+                50% {
+                    width: 2000px;
+                    height: 1500px;
+                    top: -300px;
+                    right: -300px;
+                }
+
+                100% {
+                    transform: scale(1);
+                }
             }
         }
     }
