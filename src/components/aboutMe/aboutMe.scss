@@ -269,6 +269,7 @@
             border-radius: 50%;
             border: 10px solid #ffffff;
             animation: moveCircle 2s infinite ease;
+            cursor: pointer;
 
             @keyframes moveCircle {
                 50%{

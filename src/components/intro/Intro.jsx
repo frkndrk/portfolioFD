@@ -2,8 +2,6 @@ import "./intro.scss"
 import { useEffect } from "react";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import htmlIcon from "../../assets/HTML.svg"
-import cssIcon from "../../assets/CSS.svg"
 import jsIcon from "../../assets/JavaScript.svg"
 import reactIcon from "../../assets/React-Light.svg"
 import threejsIcon from "../../assets/ThreeJS-Light.svg"
@@ -12,6 +10,7 @@ import sassIcon from "../../assets/Sass.svg"
 import bootstrapIcon from "../../assets/Bootstrap.svg"
 import laravelIcon from "../../assets/Laravel-Light.svg"
 import muiIcon from "../../assets/MaterialUI-Light.svg"
+import next from "../../assets/nextjs.svg"
 
 const Intro = () => {
 
@@ -85,12 +84,11 @@ const Intro = () => {
           <p style={{ fontWeight: "bold" }}>Best Skills</p>
           <ul className="icons">
             <div className="iconList">
-              {/* <li className="icon"><img src={htmlIcon} alt="" /></li>
-              <li className="icon"><img src={cssIcon} alt="" /></li> */}
               <li className="icon"><img src={jsIcon} alt="" /></li>
               <li className="icon"><img src={reactIcon} alt="" /></li>
               <li className="icon"><img src={threejsIcon} alt="" /></li>
               <li className="icon"><img src={viteIcon} alt="" /></li>
+              <li className="icon"><img src={next} alt="" /></li>
             </div>
             <div className="iconList">
               <li className="icon"><img src={sassIcon} alt="" /></li>
