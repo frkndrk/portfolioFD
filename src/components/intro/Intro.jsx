@@ -3,14 +3,15 @@ import { useEffect } from "react";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import jsIcon from "../../assets/JavaScript.svg"
-import reactIcon from "../../assets/React-Light.svg"
-import threejsIcon from "../../assets/ThreeJS-Light.svg"
-import viteIcon from "../../assets/Vite-Light.svg"
+import reactIcon from "../../assets/React-Dark.svg"
+import threejsIcon from "../../assets/ThreeJS-Dark.svg"
+import viteIcon from "../../assets/Vite-Dark.svg"
 import sassIcon from "../../assets/Sass.svg"
 import bootstrapIcon from "../../assets/Bootstrap.svg"
 import laravelIcon from "../../assets/Laravel-Light.svg"
-import muiIcon from "../../assets/MaterialUI-Light.svg"
-import next from "../../assets/nextjs.svg"
+import muiIcon from "../../assets/MaterialUI-Dark.svg"
+import next from "../../assets/NextJS-Dark.svg"
+import jquery from "../../assets/JQuery.svg"
 
 const Intro = () => {
 
@@ -86,14 +87,15 @@ const Intro = () => {
             <div className="iconList">
               <li className="icon"><img src={jsIcon} alt="" /></li>
               <li className="icon"><img src={reactIcon} alt="" /></li>
-              <li className="icon"><img src={threejsIcon} alt="" /></li>
-              <li className="icon"><img src={viteIcon} alt="" /></li>
+              <li className="icon"><img src={threejsIcon} alt="" /></li>{/* 
+              <li className="icon"><img src={viteIcon} alt="" /></li> */}
               <li className="icon"><img src={next} alt="" /></li>
             </div>
             <div className="iconList">
+              <li className="icon"><img src={jquery} alt="" /></li>
               <li className="icon"><img src={sassIcon} alt="" /></li>
-              <li className="icon"><img src={bootstrapIcon} alt="" /></li>
-              <li className="icon"><img src={laravelIcon} alt="" /></li>
+              <li className="icon"><img src={bootstrapIcon} alt="" /></li>{/* 
+              <li className="icon"><img src={laravelIcon} alt="" /></li> */}
               <li className="icon"><img src={muiIcon} alt="" /></li>
             </div>
           </ul>
