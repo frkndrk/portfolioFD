@@ -39,6 +39,8 @@ const Navbar = () => {
         <div className="shapes">
           <div className="shape1"></div>
           <div className="shape2"></div>
+          <div className="shape3"></div>
+          <div className="shapeDot"></div>
         </div>
       </ul>
     </div>

@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     margin: 0;
-    /* padding: 80px 0px; */
     position: relative;
     background-color: #fff;
     overflow: hidden;
@@ -27,102 +26,11 @@
         padding: 50px 40px;
         display: flex;
         border-radius: 50px;
-        /* 
-            box-shadow: 0 0 10px 1px rgba(#b7beb7, .4); */
         border: 0px solid rgba(#a5e3b6, 1);
-        /* background: linear-gradient(90deg, rgba(#a5e3b6, .3), rgba(#61DBFB, .2)); */
         background: linear-gradient(-45deg, rgb(221, 253, 251), rgb(254, 255, 227));
         position: relative;
         overflow: hidden;
         z-index: 2;
-        /* 
-        animation: rotating 2s infinite ease;
-
-        @keyframes rotating {
-            0% {
-                background: linear-gradient(90deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            5% {
-                background: linear-gradient(110deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            10% {
-                background: linear-gradient(130deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            15% {
-                background: linear-gradient(150deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            20% {
-                background: linear-gradient(170deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            25% {
-                background: linear-gradient(190deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            30% {
-                background: linear-gradient(210deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            35% {
-                background: linear-gradient(230deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            40% {
-                background: linear-gradient(250deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            45% {
-                background: linear-gradient(270deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            50% {
-                background: linear-gradient(290deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            55% {
-                background: linear-gradient(310deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            60% {
-                background: linear-gradient(330deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            65% {
-                background: linear-gradient(350deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            70% {
-                background: linear-gradient(370deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            75% {
-                background: linear-gradient(390deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            80% {
-                background: linear-gradient(410deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            85% {
-                background: linear-gradient(420deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            90% {
-                background: linear-gradient(430deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            95% {
-                background: linear-gradient(440deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-
-            100% {
-                background: linear-gradient(450deg, rgb(249, 254, 208), rgb(218, 255, 251));
-            }
-        } */
 
         @media screen and (max-width: 1100px) {
             width: 70%;
@@ -287,9 +195,6 @@
 
             .shapeCircleInner1{
                 position: absolute;
-               /*  width: 20px;
-                height: 10px;
-                background-color: #ffffff; */
                 top: 30px;
                 right: 92px;
 
@@ -309,9 +214,6 @@
 
             .shapeCircleInner2{
                 position: absolute;
-/*                 width: 20px;
-                height: 10px;
-                background-color: #ffffff; */
                 top: 105px;
                 right: 15px;
                 transform: rotate(90deg);
@@ -332,9 +234,6 @@
 
             .shapeCircleInner3{
                 position: absolute;
-/*                 width: 20px;
-                height: 10px;
-                background-color: #ffffff; */
                 top: 80px;
                 right: 75px;
                 transform: rotate(135deg);

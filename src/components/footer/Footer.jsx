@@ -17,13 +17,7 @@ const Footer = () => {
             setNavbar(true)
         } else if(window.scrollY >= 2200 && window.scrollY <= 2600 && window.innerWidth <= 930 && window.innerWidth > 905) {
             setNavbar(true)
-        } /* else if(window.scrollY >= 1900 && window.innerWidth <= 350) {
-            setNavbar(true)
-        } */ /* else if(window.scrollY >= 1800 && window.innerWidth <= 488) {
-            setNavbar(true)
-        } */ /* else if(window.scrollY >= 1800 && window.innerWidth <= 512) {
-            setNavbar(true)
-        } */ else if(window.scrollY >= 1800 && window.innerWidth <= 712) {
+        } else if(window.scrollY >= 1800 && window.innerWidth <= 712) {
             setNavbar(true)
         } else if(window.scrollY >= 2500 && window.innerWidth <= 905 && window.innerWidth > 712 ) {
             setNavbar(true)
@@ -77,11 +71,11 @@ const Footer = () => {
             <div className={navbar ? "contF active" : "contF inactive"}>
                 <div className="leftCont">
                     <div className="pic">
-                        <img src={profile} alt="" />
+                        <img src={profile} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" />
                     </div>
                     <div className="contact">
                         <h2>CONTACT</h2>
-                        <p>Get in touch! <img src={click} alt="" /></p>
+                        <p>Get in touch! <img src={click} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" /></p>
                     </div>
                     <div className="info">
                         <div className="icon1 location">

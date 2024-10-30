@@ -6,8 +6,6 @@ import service3 from "../../assets/general.png"
 import service4 from "../../assets/bill-creation.png"
 import service5 from "../../assets/beautySaloon.png"
 import GitHubIcon from '@mui/icons-material/GitHub';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import OpenInBrowserIcon from '@mui/icons-material/OpenInBrowser';
 import AdsClickIcon from '@mui/icons-material/AdsClick';
 import billCreation from "../../assets/billCreation.mp4";
 import customerPage from "../../assets/customerPage.mp4";
@@ -74,10 +72,10 @@ const PopUpProject = ({ setPopUpState, popUpId }) => {
                 <CancelIcon className="cancelIcon" onClick={() => setPopUpState(false)} />
                 <div className="cont1" >
                     <div className="cont1A">
-                        {services[popUpId - 1].video ? <video src={services[popUpId - 1].video} autoPlay controls></video> : <img src={services[popUpId - 1].img} alt="" />}
+                        {services[popUpId - 1].video ? <video src={services[popUpId - 1].video} autoPlay controls></video> : <img src={services[popUpId - 1].img} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" />}
                     </div>
                     <div className="cont1B">
-                        <h3>{services[popUpId - 1].name} <img src={services[popUpId - 1].icon && services[popUpId - 1].icon} alt="" /></h3>
+                        <h3>{services[popUpId - 1].name} <img src={services[popUpId - 1].icon && services[popUpId - 1].icon} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" /></h3>
                         <p>{services[popUpId - 1].desc}</p>
                         <div className="language">
                             <h4>React</h4>

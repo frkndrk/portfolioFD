@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import "./projects.scss"
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import service1 from "../../assets/yaman-tarim.png"
 import service2 from "../../assets/enkaymm.png"
@@ -89,7 +88,7 @@ const Projects = () => {
                         <div key={item.id} className="contCards" style={{ transform: `translateX(-${currentSlide * 320}px)` }}>
                             <div className="card project" onClick={() => handlePopUpId(item)}>
                                 <h3>{item.name} <img src={item.icon && item.icon} alt="" /></h3>
-                                <img src={item.img} alt="" />
+                                <img src={item.img} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" />
                                 {item.video && <PlayCircleOutlineIcon className="playBtn" />}
                             </div>
                         </div>
@@ -100,7 +99,7 @@ const Projects = () => {
                         <div key={item.id} className="contCards">
                             <div className="card project" onClick={() => handlePopUpId(item)}>
                                 <h3>{item.name} <img src={item.icon && item.icon} alt="" /></h3>
-                                <img src={item.img} alt="" />
+                                <img src={item.img} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" />
                                 {item.video && <PlayCircleOutlineIcon className="playBtn" />}
                             </div>
                         </div>

@@ -5,10 +5,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import jsIcon from "../../assets/JavaScript.svg"
 import reactIcon from "../../assets/React-Dark.svg"
 import threejsIcon from "../../assets/ThreeJS-Dark.svg"
-import viteIcon from "../../assets/Vite-Dark.svg"
 import sassIcon from "../../assets/Sass.svg"
 import bootstrapIcon from "../../assets/Bootstrap.svg"
-import laravelIcon from "../../assets/Laravel-Light.svg"
 import muiIcon from "../../assets/MaterialUI-Dark.svg"
 import next from "../../assets/NextJS-Dark.svg"
 import jquery from "../../assets/JQuery.svg"
@@ -85,18 +83,16 @@ const Intro = () => {
           <p style={{ fontWeight: "bold" }}>Best Skills</p>
           <ul className="icons">
             <div className="iconList">
-              <li className="icon"><img src={jsIcon} alt="" /></li>
-              <li className="icon"><img src={reactIcon} alt="" /></li>
-              <li className="icon"><img src={threejsIcon} alt="" /></li>{/* 
-              <li className="icon"><img src={viteIcon} alt="" /></li> */}
-              <li className="icon"><img src={next} alt="" /></li>
+              <li className="icon"><img src={jsIcon} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" /></li>
+              <li className="icon"><img src={reactIcon} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" /></li>
+              <li className="icon"><img src={threejsIcon} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" /></li>
+              <li className="icon"><img src={next} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" /></li>
             </div>
             <div className="iconList">
-              <li className="icon"><img src={jquery} alt="" /></li>
-              <li className="icon"><img src={sassIcon} alt="" /></li>
-              <li className="icon"><img src={bootstrapIcon} alt="" /></li>{/* 
-              <li className="icon"><img src={laravelIcon} alt="" /></li> */}
-              <li className="icon"><img src={muiIcon} alt="" /></li>
+              <li className="icon"><img src={jquery} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" /></li>
+              <li className="icon"><img src={sassIcon} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" /></li>
+              <li className="icon"><img src={bootstrapIcon} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" /></li>
+              <li className="icon"><img src={muiIcon} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" /></li>
             </div>
           </ul>
         </div>

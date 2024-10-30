@@ -1,6 +1,5 @@
 import "./aboutMe.scss"
 import coffeePic from "../../assets/coffee5.jpg"
-import frontendLogo from "../../../src/assets/reactlogo3.png"
 import location from "../../assets/location2.png"
 import { useState } from "react"
 
@@ -22,8 +21,7 @@ const AboutMe = () => {
     <div className="aboutMe" id="aboutMe">
       <div className="cont-1">
         <div className="cont-1a">
-          <img className="coffeePic" src={coffeePic} alt="" />
-          <img className="frontendLogo" src={frontendLogo} alt="" />
+          <img className="coffeePic" src={coffeePic} alt="furkandurak, furkan durak, Furkan Durak, Furkan DURAK, front end, frontend, developer, FURKAN DURAK, FURKANDURAK, software, development, web, web design, webdesign, design, portfolio" />
         </div>
         <div className="cont-1b">
           <h3>ABOUT ME</h3>

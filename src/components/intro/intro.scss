@@ -90,43 +90,44 @@
                     }
                 }
 
-                .findMe{
+                .findMe {
                     display: flex;
                     flex-direction: column;
 
-                    #fm1{
+                    #fm1 {
                         margin-top: 20px;
                         font-size: #000;
                     }
+
                     .icons1 {
                         list-style: none;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-    
+
                         li {
                             margin-right: 10px;
 
                             &:nth-child(1) {
                                 margin-left: -5px;
                             }
-    
+
                             a {
                                 color: rgb(138, 140, 141);
-    
+
                                 &:hover {
                                     color: #61DBFB;
                                 }
                             }
-    
-    
-    
+
+
+
                         }
                     }
 
                 }
 
-                
+
 
 
             }
@@ -144,8 +145,8 @@
                     height: 400px;
                     background-color: rgba(#d1d1d1, 0.5);
                     position: relative;
-                    background-image: url("../../assets/profilePic.png");
-                    background-size: 150%;
+                    background-image: url("../../assets/profilePic1.png");
+                    background-size: 125%;
                     background-position-x: 46%;
                     background-position-y: 36%;
                     background-repeat: no-repeat;
@@ -176,11 +177,6 @@
                         width: 250px;
                         height: 250px;
                     }
-
-                    /* @media screen and (max-width: 500px) {
-                        width: 200px;
-                        height: 200px;
-                    } */
 
 
                 }
@@ -221,7 +217,7 @@
                     display: flex;
 
                     .icon {
-                        
+
                         img {
                             width: 50px;
                             margin-right: 15px;
@@ -290,15 +286,6 @@
             }
         }
     }
-
-
-
-
-
-
-
-
-
 
     #Matrix {
         z-index: -1;

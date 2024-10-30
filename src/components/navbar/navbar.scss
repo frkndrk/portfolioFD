@@ -8,11 +8,8 @@
     align-items: center;
     font-weight: 600;
     font-style: normal;
-    /* color: #2d2e32; */
     color: #000;
     background-color: #fff;
-    /* 
-    border-bottom: 1px solid #aaa; */
     box-shadow: 1px 0 5px 1px #efeded;
     z-index: 1111111;
 
@@ -33,13 +30,13 @@
             margin-left: 20px;
         }
 
-        a{
+        a {
             text-decoration: none;
             color: #000;
             -webkit-tap-highlight-color: transparent;
         }
-        
-        
+
+
     }
 
     .menu1 {
@@ -55,7 +52,7 @@
                 font-size: 17px;
                 cursor: pointer;
 
-                a{
+                a {
                     text-decoration: none;
                     color: #000;
 
@@ -91,7 +88,7 @@
         border-radius: 50% 50% 50% 50%;
         -webkit-transition: .5s ease-in-out;
         transition: .5s ease-in-out;
-        box-shadow: 0 0 0 0 #ffffff, 0 0 0 0 #ffffff;
+        box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
         cursor: pointer;
     }
 
@@ -136,7 +133,7 @@
     }
 
     label input:checked+.menu {
-        box-shadow: 10px 10px 10px 100vw #ffffff, 10px 10px 10px 100vh #ffffff;
+        box-shadow: 10px 10px 10px 100vw #fff, 10px 10px 10px 100vh #fff;
         border-radius: 0;
         -webkit-tap-highlight-color: transparent;
     }
@@ -160,12 +157,6 @@
         top: 0;
 
     }
-
-    /*     label input:checked+.menu+ul {
-        opacity: 1;
-        visibility: visible;
-    } */
-
 
     .mobileList {
         display: none;
@@ -195,35 +186,76 @@
                     text-decoration: none;
                     font-size: 1.4rem;
                     -webkit-tap-highlight-color: transparent;
+
+                    &:active{
+                        color:#61DBFB;
+                    }
                 }
             }
 
             .shapes {
                 position: absolute;
-                top: 30%;
-                left: -50%;
+                top: -40%;
+                left: -180%;
                 z-index: -1;
+                width: 400px;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                animation: turnAround 10s infinite linear;
+
+                @keyframes turnAround {
+                    100% {
+                        transform: rotate(360deg);
+                        transform-origin: center;
+                    }
+                }
 
                 .shape1 {
-                    width: 100px;
-                    height: 200px;
-                    background-color: #8f9697;
+                    width: 120px;
+                    height: 350px;
+                    background-color: transparent;
                     position: absolute;
-                    top: 300%;
-                    left: 40%;
-                    border-radius: 42% 58% 32% 68% / 32% 55% 34% 59%;
+                    border-radius: 50%;
+                    transform: rotate(-30deg);
+                    border: 10px solid #c8f1fb;
+                    box-shadow: 0 0 5px 1px #a9edf8 ;
                 }
-        
+
                 .shape2 {
-                    width: 100px;
-                    height: 200px;
-                    background-color: #cdedf5;
+                    width: 120px;
+                    height: 350px;
+                    background-color: transparent;
                     position: absolute;
-                    top: 300%;
-                    left: 50%;
-                    border-radius: 42% 58% 32% 68% / 32% 55% 34% 59%;
-                    transform: rotate(45deg);
-                    margin-left: 50px;
+                    border-radius: 50%;
+                    transform: rotate(30deg);
+                    border: 10px solid #c8f1fb;
+                    box-shadow: 0 0 10px 1px #a9edf8 ;
+                }
+
+                .shape3 {
+                    width: 120px;
+                    height: 350px;
+                    background-color: transparent;
+                    position: absolute;
+                    transform: rotate(90deg);
+                    border-radius: 50%;
+                    border: 10px solid #c8f1fb;
+                    box-shadow: 0 0 10px 1px #a9edf8 ;
+                }
+
+                .shapeDot {
+                    width: 50px;
+                    height: 50px;
+                    background-color: #c8f1fb;
+                    position: absolute;
+                    translate: (-50%, -50%);
+                    border-radius: 50%;
+                    border: 10px solid #c8f1fb;
+                    box-shadow: 0 0 10px 1px #a9edf8 ;
                 }
             }
         }

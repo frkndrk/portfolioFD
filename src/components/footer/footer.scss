@@ -24,7 +24,6 @@
 
 
     .contF {
-        /* width: 960px; */
         width: 65%;
         max-width: 960px;
         padding: 0 40px;
@@ -32,7 +31,6 @@
         justify-content: space-between;
         align-items: start;
         gap: 30px;
-        /* border-right: 3px solid #fff; */
         transition: all 1s ease;
 
         @media screen and (max-width: 500px) {
@@ -123,7 +121,7 @@
                             margin-top: 5px;
                             cursor: pointer;
                             -webkit-tap-highlight-color: transparent;
-                            
+
                             &:hover {
                                 color: #61DBFB;
                             }
