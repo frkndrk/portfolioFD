@@ -178,6 +178,7 @@
             border: 10px solid #ffffff;
             animation: moveCircle 2s infinite ease;
             cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
 
             @keyframes moveCircle {
                 50%{
